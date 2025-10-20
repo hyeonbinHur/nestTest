@@ -1,0 +1,138 @@
+[
+    {
+        "id": 1,
+        "name": "oliveyoung-frontend",
+        "description": "OliveYoung 프론트엔드 메인 애플리케이션",
+        "language": "TypeScript",
+        "stars": 245,
+        "config": {
+            "geminiApiKey": "AIzaSyD*********************",
+            "claudeApiKey": "sk-ant-api03-*********************",
+            "githubToken": "${{ github.token }}",
+            "checklistPath": ".github/checklist.md",
+            "maxReviewComment": 30,
+            "reviewLevel": "MEDIUM",
+            "mode": "review",
+            "autoTrigger": true
+        }
+    },
+    {
+        "id": 2,
+        "name": "oliveyoung-mobile-app",
+        "description": "OliveYoung 모바일 앱 (React Native)",
+        "language": "JavaScript",
+        "stars": 189,
+        "config": {
+            "geminiApiKey": "AIzaSyD*********************",
+            "claudeApiKey": "sk-ant-api03-*********************",
+            "githubToken": "${{ github.token }}",
+            "checklistPath": ".github/checklist.md",
+            "maxReviewComment": 50,
+            "reviewLevel": "CRITICAL",
+            "mode": "review",
+            "autoTrigger": true
+        }
+    },
+    {
+        "id": 3,
+        "name": "oliveyoung-backend-api",
+        "description": "OliveYoung 백엔드 API 서버",
+        "language": "Java",
+        "stars": 312,
+        "config": {
+            "geminiApiKey": "AIzaSyD*********************",
+            "claudeApiKey": "sk-ant-api03-*********************",
+            "githubToken": "${{ github.token }}",
+            "checklistPath": ".github/review-checklist.md",
+            "maxReviewComment": 40,
+            "reviewLevel": "MEDIUM",
+            "mode": "review",
+            "autoTrigger": false
+        }
+    },
+    {
+        "id": 4,
+        "name": "oliveyoung-design-system",
+        "description": "OliveYoung 디자인 시스템 및 컴포넌트 라이브러리",
+        "language": "TypeScript",
+        "stars": 156,
+        "config": {
+            "geminiApiKey": "AIzaSyD*********************",
+            "claudeApiKey": "sk-ant-api03-*********************",
+            "githubToken": "${{ github.token }}",
+            "checklistPath": ".github/checklist.md",
+            "maxReviewComment": 25,
+            "reviewLevel": "LOW",
+            "mode": "review",
+            "autoTrigger": true
+        }
+    },
+    {
+        "id": 5,
+        "name": "oliveyoung-analytics",
+        "description": "데이터 분석 및 리포팅 시스템",
+        "language": "Python",
+        "stars": 98,
+        "config": {
+            "geminiApiKey": "AIzaSyD*********************",
+            "claudeApiKey": "sk-ant-api03-*********************",
+            "githubToken": "${{ github.token }}",
+            "checklistPath": ".github/checklist.md",
+            "maxReviewComment": 30,
+            "reviewLevel": "MEDIUM",
+            "mode": "review",
+            "autoTrigger": true
+        }
+    },
+    {
+        "id": 6,
+        "name": "oliveyoung-admin-dashboard",
+        "description": "관리자 대시보드",
+        "language": "Vue.js",
+        "stars": 134,
+        "config": {
+            "geminiApiKey": "AIzaSyD*********************",
+            "claudeApiKey": "sk-ant-api03-*********************",
+            "githubToken": "${{ github.token }}",
+            "checklistPath": ".github/checklist.md",
+            "maxReviewComment": 30,
+            "reviewLevel": "MEDIUM",
+            "mode": "review",
+            "autoTrigger": false
+        }
+    },
+    {
+        "id": 7,
+        "name": "oliveyoung-infrastructure",
+        "description": "인프라 자동화 및 DevOps 도구",
+        "language": "Go",
+        "stars": 87,
+        "config": {
+            "geminiApiKey": "AIzaSyD*********************",
+            "claudeApiKey": "sk-ant-api03-*********************",
+            "githubToken": "${{ github.token }}",
+            "checklistPath": ".github/checklist.md",
+            "maxReviewComment": 35,
+            "reviewLevel": "CRITICAL",
+            "mode": "review",
+            "autoTrigger": true
+        }
+    },
+    {
+        "id": 8,
+        "name": "oliveyoung-recommendation-engine",
+        "description": "상품 추천 알고리즘 엔진",
+        "language": "Python",
+        "stars": 203,
+        "config": {
+            "geminiApiKey": "AIzaSyD*********************",
+            "claudeApiKey": "sk-ant-api03-*********************",
+            "githubToken": "${{ github.token }}",
+            "checklistPath": ".github/checklist.md",
+            "maxReviewComment": 30,
+            "reviewLevel": "MEDIUM",
+            "mode": "review",
+            "autoTrigger": true
+        }
+    }
+]
