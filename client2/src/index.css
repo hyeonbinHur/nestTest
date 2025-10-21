@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Olive Young Brand Colors */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 15%;
+    /* Olive Young Signature Green #00A896 */
+    --primary: 172 100% 33%;
+    --primary-foreground: 0 0% 100%;
+    /* Light green accent */
+    --secondary: 160 40% 95%;
+    --secondary-foreground: 172 100% 25%;
+    --muted: 160 30% 96%;
+    --muted-foreground: 0 0% 45%;
+    --accent: 172 60% 92%;
+    --accent-foreground: 172 100% 25%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 160 20% 90%;
+    --input: 160 20% 90%;
+    --ring: 172 100% 33%;
+    --radius: 0.5rem;
+    /* Chart colors with Olive Young palette */
+    --chart-1: 172 100% 33%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 150 50% 40%;
+    --chart-4: 140 45% 50%;
+    --chart-5: 180 55% 35%;
+  }
+
+  .dark {
+    --background: 0 0% 10%;
+    --foreground: 0 0% 95%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 95%;
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 172 100% 40%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 172 30% 15%;
+    --secondary-foreground: 0 0% 95%;
+    --muted: 0 0% 18%;
+    --muted-foreground: 0 0% 65%;
+    --accent: 172 40% 20%;
+    --accent-foreground: 0 0% 95%;
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 172 100% 40%;
+    --chart-1: 172 100% 40%;
+    --chart-2: 160 60% 50%;
+    --chart-3: 150 50% 45%;
+    --chart-4: 140 45% 55%;
+    --chart-5: 180 55% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
